@@ -45,7 +45,7 @@ const features = [
         throttleDelay={3000}
         className={cn("h-full min-h-56 w-full rounded-xl")}
         editorContentClassName="overflow-auto h-full"
-        output="json"
+        output="html"
         onChange={(value) => {
           console.log(value)
         }}
